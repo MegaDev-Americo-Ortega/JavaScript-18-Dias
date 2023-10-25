@@ -1,0 +1,72 @@
+/* Selector ID */
+#title {
+    font-family: monospace;
+    font-size: 2.5rem;
+    color: blue;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Selector Clases */
+.center-text {
+    text-align: center;
+}
+
+.sub-title {
+    font-family: monospace;
+    font-size: 1.5rem;
+
+}
+
+.paragraph {
+    text-align: center;
+}
+.conteiner-img{
+    float: left;
+    shape-outside: circle(50%) border-box;
+    width: 250px;
+    height: 250px;
+}
+.foto{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+/* Selector de Tipo */
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+ul {
+    list-style: none;
+    /* word-spacing: 10px; */
+
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+[href] {
+    text-decoration: none;
+
+}
+
+[href]:hover {
+    color: red;
+}
+
+p::first-line {
+    text-transform: uppercase;
+}
+
+h1+h2:hover {
+    text-decoration: underline;
+
+}
